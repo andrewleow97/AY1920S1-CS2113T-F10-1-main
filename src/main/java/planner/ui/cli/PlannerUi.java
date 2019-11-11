@@ -353,7 +353,7 @@ public class PlannerUi {
     public void helloMsg() {
         showLine();
         print(
-                "Welcome to ModPlanner, your one stop solution to module planning!\n"
+                "Welcome to ModPlan, your one stop solution to module planning!\n"
                 + "Begin typing to get started!\n"
         );
         showLine();
@@ -365,7 +365,7 @@ public class PlannerUi {
     public void goodbyeMsg() {
         showLine();
         print(
-                "Thanks for using ModPlanner!\n"
+                "Thanks for using ModPlan!\n"
                  + "Your data will be stored in file shortly!\n"
         );
         showLine();
@@ -579,7 +579,7 @@ public class PlannerUi {
     }
 
     /**
-     * Message to print the reminder list.
+     * Message to print the reminder message.
      */
     public void reminderMsg() {
         showLine();
@@ -601,7 +601,7 @@ public class PlannerUi {
                             +
                             "2) for 30 seconds\n"
                             +
-                            "3) for 1 minutes\n"
+                            "3) for 1 minute\n"
                             +
                             "4) for 2 minutes\n"
                             +

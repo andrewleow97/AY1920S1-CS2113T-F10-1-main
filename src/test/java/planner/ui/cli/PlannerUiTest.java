@@ -39,7 +39,7 @@ public class PlannerUiTest extends InputTest {
                 + "Would you like to set your reminder to every:\n"
                 + "1) for 10 seconds\n"
                 + "2) for 30 seconds\n"
-                + "3) for 1 minutes\n"
+                + "3) for 1 minute\n"
                 + "4) for 2 minutes\n"
                 + "*helpline* : for 1), enter 'reminder one'\n";
         plannerUi.reminderList();
@@ -61,7 +61,7 @@ public class PlannerUiTest extends InputTest {
     void testHelloMsg() {
         final String expected = LINE
                 + "\n"
-                +  "Welcome to ModPlanner, your one stop solution to module planning!\n"
+                +  "Welcome to ModPlan, your one stop solution to module planning!\n"
                 + "Begin typing to get started!\n"
                 + LINE
                 + "\n";
@@ -73,7 +73,7 @@ public class PlannerUiTest extends InputTest {
     void testByeMsg() {
         final String expected = LINE
                 + "\n"
-                + "Thanks for using ModPlanner!\n"
+                + "Thanks for using ModPlan!\n"
                 + "Your data will be stored in file shortly!\n"
                 + LINE
                 + "\n";
